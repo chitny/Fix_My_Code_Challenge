@@ -92,7 +92,7 @@ password")
         print("is_valid_password should return False if it's not the right \
 password")
 
-    if user_1.is_valid_password(None):mkd
+    if user_1.is_valid_password(None):
         print("is_valid_password should return False if compare with None")
 
     if user_1.is_valid_password(89):
